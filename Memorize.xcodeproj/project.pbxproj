@@ -18,6 +18,8 @@
 		6291C81C254ABE65004B3834 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6291C81B254ABE65004B3834 /* Grid.swift */; };
 		6291C820254AC43D004B3834 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6291C81F254AC43D004B3834 /* GridLayout.swift */; };
 		6291C824254ACB7D004B3834 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6291C823254ACB7D004B3834 /* Array.swift */; };
+		6291C830254D535C004B3834 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6291C82F254D535C004B3834 /* Pie.swift */; };
+		6291C83425515355004B3834 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6291C83325515355004B3834 /* Cardify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		6291C81B254ABE65004B3834 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		6291C81F254AC43D004B3834 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		6291C823254ACB7D004B3834 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		6291C82F254D535C004B3834 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		6291C83325515355004B3834 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 			children = (
 				6281FD7224D96DC400CF2432 /* EmojiMemoryGameView.swift */,
 				6291C81B254ABE65004B3834 /* Grid.swift */,
+				6291C82F254D535C004B3834 /* Pie.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -75,6 +80,7 @@
 		6281FD6D24D96DC300CF2432 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
+				6291C83225515334004B3834 /* ViewModifiers */,
 				6291C82C254C446A004B3834 /* Extensions */,
 				6291C81E254AC425004B3834 /* Helpers */,
 				62054F4B24DD4DFE00FD32A1 /* View */,
@@ -128,6 +134,14 @@
 				6291C823254ACB7D004B3834 /* Array.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6291C83225515334004B3834 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				6291C83325515355004B3834 /* Cardify.swift */,
+			);
+			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,10 +218,12 @@
 				6281FD6F24D96DC400CF2432 /* AppDelegate.swift in Sources */,
 				6281FD7124D96DC400CF2432 /* SceneDelegate.swift in Sources */,
 				6281FD8324D96DEE00CF2432 /* MemoryGame.swift in Sources */,
+				6291C830254D535C004B3834 /* Pie.swift in Sources */,
 				6281FD7324D96DC400CF2432 /* EmojiMemoryGameView.swift in Sources */,
 				6281FD8624D970A100CF2432 /* EmojiMemoryGame.swift in Sources */,
 				6291C824254ACB7D004B3834 /* Array.swift in Sources */,
 				6291C820254AC43D004B3834 /* GridLayout.swift in Sources */,
+				6291C83425515355004B3834 /* Cardify.swift in Sources */,
 				6291C81C254ABE65004B3834 /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,14 +364,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
-				DEVELOPMENT_TEAM = XTAP3365LG;
+				DEVELOPMENT_TEAM = 268UXG9286;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Memorize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.pierrewhy.Memorize;
+				PRODUCT_BUNDLE_IDENTIFIER = io.pyounes.Memorize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -368,14 +385,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
-				DEVELOPMENT_TEAM = XTAP3365LG;
+				DEVELOPMENT_TEAM = 268UXG9286;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Memorize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.pierrewhy.Memorize;
+				PRODUCT_BUNDLE_IDENTIFIER = io.pyounes.Memorize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
